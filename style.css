@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    max-width: 100vw;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.clearfix{
+    content: "";
+    display: block;
+    clear: both;
+}
+.food-1{
+    background: url(img/food-1.jpg);
+}
+.food-2{
+    background: url(img/food-2.jpg);
+}
+.food-3{
+    background: url(img/food-3.jpg);
+}
+.float-left{
+    float: left;
+}
+.single-card{
+    width: 33.33%;
+}
+.card-bg{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+.card-content{
+    background: #E7E7E7;
+    margin: -60px 30px 0px 30px;
+    padding: 20px 20px 50px 20px;
+    border-top: 4px solid #CA8F37;
+    text-align: center;
+    box-shadow: 3px 3px 5px #967676;
+    transition: all 0.5s ease;
+}
+.card-content h2{
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+    color: rgb(27, 24, 24);
+    text-transform: capitalize;
+}
+.card-content h1{
+    color: #D5973A;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.card-content p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #000;
+}
+.card-content p span{
+    font-size: 200%
+}
+.card-content a{
+    text-decoration: none;
+    color: #D5973A;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    border: 1px solid #D5973A;
+    padding: 8px 15px
+}
+.card-content:hover{
+    background: #CA8F37;
+    transition: all 0.5s ease;
+}
+.card-content:hover h1,
+.card-content:hover p,
+.card-content:hover p span,
+.card-content:hover a{
+    color: #ddd;
+    border-color: #ddd;
+    transition: all 0.5s ease;
+}
+.card-content:hover h2{
+    color: #FFE21C;
+    transition: all 0.5s ease;
+    font-weight: 700;
+}
